@@ -1,0 +1,33 @@
+.navigation ul {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.navigation ul li {
+    padding: 0 15px;
+
+}
+
+.navigation ul li a {
+    font-size: normal;
+    font-weight: 500;
+    color: #495e57;
+    text-decoration: none;
+}
+
+.navigation ul li a:hover {
+    color: #495e57;
+}
+
+.navigation ul li .active-links.active {
+    color: #495e57
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .navigation {
+        display: none;
+    }
+}

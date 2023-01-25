@@ -1,0 +1,26 @@
+.menu__card {
+    width: 30%;
+    background-color: #edefee;
+
+}
+
+.menu_img {
+    width: 100%;
+
+}
+
+.second_column {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.third_column {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    padding: 5px;
+}
